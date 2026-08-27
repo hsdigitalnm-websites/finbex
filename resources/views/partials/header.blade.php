@@ -72,6 +72,9 @@
 
     <div class="navbar navbar-default">
       <div class="container clearfix">
+        <a class="navbar-inline-logo" href="{{ route('home') }}" title="FINBEX Corporate Solutions Private Limited">
+          <img src="{{ asset('assets/images/logo.png') }}" alt="FINBEX Corporate Solutions">
+        </a>
         <div class="navbar-collapse collapse pull-left">
           <ul class="nav navbar-nav">
             <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'link-active' : '' }}">Home</a></li>

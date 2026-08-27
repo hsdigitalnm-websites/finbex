@@ -8818,3 +8818,31 @@ footer .social-icons a:hover {
 @media (max-width: 767px) {
     .hero-growth-arrow { display: none; }
 }
+
+
+/* ---------------------------------------------------------------------
+   6. NAVBAR-INLINE LOGO — shows the FinBeX mark in the nav-links row
+   itself, so it stays visible when the header is sticky/"stuck"
+   (the sticky behaviour only pins .navbar-default, not .header-top).
+   --------------------------------------------------------------------- */
+.main-header-2 .navbar-default .navbar-inline-logo {
+    display: inline-flex;
+    align-items: center;
+    float: left;
+    padding: 8px 16px 8px 0;
+    margin-right: 8px;
+}
+.main-header-2 .navbar-default .navbar-inline-logo img {
+    display: block;
+    height: 38px;
+    width: auto;
+    border-radius: 4px;
+}
+@media (max-width: 991px) {
+    .main-header-2 .navbar-default .navbar-inline-logo {
+        padding: 6px 10px 6px 0;
+    }
+    .main-header-2 .navbar-default .navbar-inline-logo img {
+        height: 32px;
+    }
+}
