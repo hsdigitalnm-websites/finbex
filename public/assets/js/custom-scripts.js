@@ -20,6 +20,8 @@ jQuery(function ($) {
     return !!("ontouchstart" in window) || (!!("onmsgesturechange" in window) && !!window.navigator.maxTouchPoints)
   }
 
+  var prefers_reduced_motion = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)
+
   // ANIMATIONS //
   function animations() {
     animations = new WOW({
@@ -31,6 +33,41 @@ jQuery(function ($) {
     })
 
     animations.init()
+  }
+
+  // SCROLL-TRIGGERED "animated" CLASS FOR CONTAINER-LEVEL EFFECTS
+  // (progress line fill, stat pop/shimmer, heading underline grow —
+  // these containers are not themselves .wow elements, so they need
+  // their own lightweight viewport-entry trigger.)
+  function scroll_reveal_containers() {
+    var targets = document.querySelectorAll(".process-steps-row, .trust-stats-grid, .section-heading-wrapper.wow")
+
+    if (!targets.length) {
+      return
+    }
+
+    if (prefers_reduced_motion || typeof IntersectionObserver === "undefined") {
+      targets.forEach(function (el) {
+        el.classList.add("animated")
+      })
+      return
+    }
+
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animated")
+            observer.unobserve(entry.target)
+          }
+        })
+      },
+      { threshold: 0.25 }
+    )
+
+    targets.forEach(function (el) {
+      observer.observe(el)
+    })
   }
 
   // PREMIUM CUSTOM CURSOR (finance-site style dot + trailing ring)
@@ -1154,8 +1191,13 @@ jQuery(function ($) {
   //WoW Animation.
   animations()
 
+  //Scroll-triggered reveal for process line / stats / headings.
+  scroll_reveal_containers()
+
   //Premium Custom Cursor.
-  custom_cursor()
+  if (!prefers_reduced_motion) {
+    custom_cursor()
+  }
 
   //One Page Scrolling.
   smooth_scrolling()

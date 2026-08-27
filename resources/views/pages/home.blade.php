@@ -85,13 +85,14 @@
     </div>
 
   </div>
+  <span class="hero-growth-arrow" aria-hidden="true"><i class="fa fa-line-chart"></i></span>
 </div>
 
 <!-- QUICK CTA BAND -->
 <section class="cta-layout-02 section-primary-bg" style="padding: 24px 0; background: linear-gradient(135deg, #004c8f 0%, #002d5a 100%);">
   <div class="container">
     <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
-      <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+      <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 wow fadeInLeft">
         <h3 class="text-light-color" style="margin: 0 0 6px 0; font-weight: 700; font-size: 22px;">
           Need Immediate Business Funding? Check Your Eligibility in 2 Minutes.
         </h3>
@@ -99,7 +100,7 @@
           Fast approvals, minimal documentation, and dedicated guidance by senior financial advisors.
         </p>
       </div>
-      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 text-right" style="margin-top: 10px;">
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 text-right wow fadeInRight" style="margin-top: 10px;">
         <a class="btn btn-theme btn-square btn-theme-invert" href="{{ route('contact') }}" style="font-weight: 700; padding: 12px 24px;">
           APPLY ONLINE NOW <i class="fa fa-arrow-right" style="margin-left: 4px;"></i>
         </a>
@@ -109,9 +110,9 @@
 </section>
 
 <!-- OUR SERVICES SECTION -->
-<section class="section-content-block">
-  <div class="container wow fadeInUp">
-    <div class="row section-heading-wrapper text-center">
+<section class="section-content-block finbex-services-section">
+  <div class="container">
+    <div class="row section-heading-wrapper text-center wow fadeInUp">
       <div class="col-md-12">
         <h4 class="heading-alt-style text-capitalize text-dark-color">Comprehensive Financial Services</h4>
         <span class="heading-separator heading-separator-horizontal"></span>
@@ -124,7 +125,7 @@
     <div class="row">
       <!-- 1. Unsecured Business Loans -->
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="finbex-service-card">
+        <div class="finbex-service-card wow fadeInUp" data-wow-delay="0.05s">
           <span class="service-badge">Collateral Free</span>
           <div class="service-icon-wrap"><i class="fa fa-briefcase"></i></div>
           <h3>Unsecured Business Loans</h3>
@@ -143,7 +144,7 @@
 
       <!-- 2. MCA / POS Loans -->
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="finbex-service-card">
+        <div class="finbex-service-card wow fadeInUp" data-wow-delay="0.15s">
           <span class="service-badge" style="background: linear-gradient(135deg, #10b981 0%, #047857 100%);">Daily Flexible</span>
           <div class="service-icon-wrap"><i class="fa fa-credit-card"></i></div>
           <h3>MCA / POS Swipe Loans</h3>
@@ -162,7 +163,7 @@
 
       <!-- 3. Working Capital CC / OD -->
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="finbex-service-card">
+        <div class="finbex-service-card wow fadeInUp" data-wow-delay="0.25s">
           <span class="service-badge">Liquidity Support</span>
           <div class="service-icon-wrap"><i class="fa fa-refresh"></i></div>
           <h3>Working Capital (CC / OD)</h3>
@@ -181,7 +182,7 @@
 
       <!-- 4. Machinery & Equipment Loans -->
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="finbex-service-card">
+        <div class="finbex-service-card wow fadeInUp" data-wow-delay="0.35s">
           <span class="service-badge">Asset Financing</span>
           <div class="service-icon-wrap"><i class="fa fa-cogs"></i></div>
           <h3>Machinery &amp; Equipment Loans</h3>
@@ -200,7 +201,7 @@
 
       <!-- 5. Loan Against Property -->
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="finbex-service-card">
+        <div class="finbex-service-card wow fadeInUp" data-wow-delay="0.45s">
           <span class="service-badge" style="background: linear-gradient(135deg, #d4af37 0%, #a6841d 100%);">High Value</span>
           <div class="service-icon-wrap"><i class="fa fa-building"></i></div>
           <h3>Loan Against Property (LAP)</h3>
@@ -219,7 +220,7 @@
 
       <!-- 6. Invoice Discounting -->
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="finbex-service-card">
+        <div class="finbex-service-card wow fadeInUp" data-wow-delay="0.55s">
           <span class="service-badge">Instant Cash Flow</span>
           <div class="service-icon-wrap"><i class="fa fa-file-text-o"></i></div>
           <h3>Supply Chain &amp; Invoice Discounting</h3>
@@ -250,7 +251,7 @@
 <!-- 4-STEP LOAN PROCESS SECTION (REPLACED EMPTY BRAND SECTION) -->
 <section class="section-content-block section-secondary-bg" style="padding-top: 60px; padding-bottom: 60px;">
   <div class="container">
-    <div class="row section-heading-wrapper text-center">
+    <div class="row section-heading-wrapper text-center wow fadeInUp">
       <div class="col-md-12">
         <h4 class="heading-alt-style text-capitalize text-dark-color">How It Works</h4>
         <span class="heading-separator heading-separator-horizontal"></span>
@@ -332,7 +333,7 @@
     <div class="row">
       <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
         <div class="row margin-bottom-48">
-          <div class="about-us-intro">
+          <div class="about-us-intro wow fadeInRight">
             <div class="col-md-12 col-sm-12 text-left margin-bottom-24">
               <h4 style="color: #004c8f; font-weight: 700; text-transform: uppercase;">About Our Company</h4>
               <h2 class="block-heading-title margin-top-12 text-dark-color" style="font-size: 26px;">
@@ -398,7 +399,7 @@
 <!-- PROJECTS & CASE STUDIES GALLERY -->
 <section class="section-content-block">
   <div class="container">
-    <div class="row section-heading-wrapper text-center">
+    <div class="row section-heading-wrapper text-center wow fadeInUp">
       <div class="col-md-12">
         <h4 class="heading-alt-style text-capitalize text-dark-color">Industry Sectors We Serve</h4>
         <span class="heading-separator heading-separator-horizontal"></span>
@@ -408,61 +409,85 @@
       </div>
     </div>
 
-    <div class="row wow fadeInUp margin-bottom-24">
-      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container">
-        <a class="gallery-light-box xs-margin" data-gall="myGallery" href="{{ asset('assets/images/gallery_1.jpg') }}">
-          <figure class="gallery-img">
-            <img alt="Manufacturing Finance" src="{{ asset('assets/images/gallery_1.jpg') }}">
-          </figure>
+    <div class="row margin-bottom-24">
+      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container wow fadeInUp" data-wow-delay="0.05s">
+        <a class="gallery-light-box industry-card" data-gall="myGallery" href="{{ asset('assets/images/gallery_1.jpg') }}">
+          <span class="industry-media"><img alt="Manufacturing Finance" src="{{ asset('assets/images/gallery_1.jpg') }}"></span>
+          <span class="industry-overlay">
+            <span class="industry-accent"></span>
+            <span class="industry-name">Manufacturing</span>
+            <span class="industry-desc">Flexible finance solutions for production &amp; plant expansion.</span>
+          </span>
         </a>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container">
-        <a class="gallery-light-box xs-margin" data-gall="myGallery" href="{{ asset('assets/images/gallery_2.jpg') }}">
-          <figure class="gallery-img">
-            <img alt="Retail & Merchant Loans" src="{{ asset('assets/images/gallery_2.jpg') }}">
-          </figure>
+      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container wow fadeInUp" data-wow-delay="0.15s" style="margin-top: 18px;">
+        <a class="gallery-light-box industry-card" data-gall="myGallery" href="{{ asset('assets/images/gallery_2.jpg') }}">
+          <span class="industry-media"><img alt="Retail & Merchant Loans" src="{{ asset('assets/images/gallery_2.jpg') }}"></span>
+          <span class="industry-overlay">
+            <span class="industry-accent"></span>
+            <span class="industry-name">Retail &amp; Merchants</span>
+            <span class="industry-desc">Daily-turnover linked funding for shops, marts &amp; restaurants.</span>
+          </span>
         </a>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container">
-        <a class="gallery-light-box xs-margin" data-gall="myGallery" href="{{ asset('assets/images/gallery_3.jpg') }}">
-          <figure class="gallery-img">
-            <img alt="Infrastructure & LAP" src="{{ asset('assets/images/gallery_3.jpg') }}">
-          </figure>
+      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container wow fadeInUp" data-wow-delay="0.25s">
+        <a class="gallery-light-box industry-card" data-gall="myGallery" href="{{ asset('assets/images/gallery_3.jpg') }}">
+          <span class="industry-media"><img alt="Infrastructure & LAP" src="{{ asset('assets/images/gallery_3.jpg') }}"></span>
+          <span class="industry-overlay">
+            <span class="industry-accent"></span>
+            <span class="industry-name">Infrastructure</span>
+            <span class="industry-desc">High-value property-backed capital for long-term projects.</span>
+          </span>
         </a>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container">
-        <a class="gallery-light-box xs-margin" data-gall="myGallery" href="{{ asset('assets/images/gallery_4.jpg') }}">
-          <figure class="gallery-img">
-            <img alt="Machinery Procurement" src="{{ asset('assets/images/gallery_4.jpg') }}">
-          </figure>
+      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container wow fadeInUp" data-wow-delay="0.35s" style="margin-top: 18px;">
+        <a class="gallery-light-box industry-card" data-gall="myGallery" href="{{ asset('assets/images/gallery_4.jpg') }}">
+          <span class="industry-media"><img alt="Machinery Procurement" src="{{ asset('assets/images/gallery_4.jpg') }}"></span>
+          <span class="industry-overlay">
+            <span class="industry-accent"></span>
+            <span class="industry-name">Machinery</span>
+            <span class="industry-desc">Equipment financing to modernize and scale operations.</span>
+          </span>
         </a>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container">
-        <a class="gallery-light-box xs-margin" data-gall="myGallery" href="{{ asset('assets/images/gallery_5.jpg') }}">
-          <figure class="gallery-img">
-            <img alt="Supply Chain Liquidity" src="{{ asset('assets/images/gallery_5.jpg') }}">
-          </figure>
+      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container wow fadeInUp" data-wow-delay="0.05s">
+        <a class="gallery-light-box industry-card" data-gall="myGallery" href="{{ asset('assets/images/gallery_5.jpg') }}">
+          <span class="industry-media"><img alt="Supply Chain Liquidity" src="{{ asset('assets/images/gallery_5.jpg') }}"></span>
+          <span class="industry-overlay">
+            <span class="industry-accent"></span>
+            <span class="industry-name">Supply Chain</span>
+            <span class="industry-desc">Invoice discounting to unlock working capital fast.</span>
+          </span>
         </a>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container">
-        <a class="gallery-light-box xs-margin" data-gall="myGallery" href="{{ asset('assets/images/gallery_6.jpg') }}">
-          <figure class="gallery-img">
-            <img alt="Healthcare & Medical Equipment" src="{{ asset('assets/images/gallery_6.jpg') }}">
-          </figure>
+      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container wow fadeInUp" data-wow-delay="0.15s" style="margin-top: 18px;">
+        <a class="gallery-light-box industry-card" data-gall="myGallery" href="{{ asset('assets/images/gallery_6.jpg') }}">
+          <span class="industry-media"><img alt="Healthcare & Medical Equipment" src="{{ asset('assets/images/gallery_6.jpg') }}"></span>
+          <span class="industry-overlay">
+            <span class="industry-accent"></span>
+            <span class="industry-name">Healthcare</span>
+            <span class="industry-desc">Funding for clinics, diagnostics &amp; medical equipment.</span>
+          </span>
         </a>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container">
-        <a class="gallery-light-box xs-margin" data-gall="myGallery" href="{{ asset('assets/images/gallery_7.jpg') }}">
-          <figure class="gallery-img">
-            <img alt="Export-Import Trade Finance" src="{{ asset('assets/images/gallery_7.jpg') }}">
-          </figure>
+      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container wow fadeInUp" data-wow-delay="0.25s">
+        <a class="gallery-light-box industry-card" data-gall="myGallery" href="{{ asset('assets/images/gallery_7.jpg') }}">
+          <span class="industry-media"><img alt="Export-Import Trade Finance" src="{{ asset('assets/images/gallery_7.jpg') }}"></span>
+          <span class="industry-overlay">
+            <span class="industry-accent"></span>
+            <span class="industry-name">Export-Import</span>
+            <span class="industry-desc">Trade finance solutions for cross-border businesses.</span>
+          </span>
         </a>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container">
-        <a class="gallery-light-box xs-margin" data-gall="myGallery" href="{{ asset('assets/images/gallery_8.jpg') }}">
-          <figure class="gallery-img">
-            <img alt="Corporate Expansion" src="{{ asset('assets/images/gallery_8.jpg') }}">
-          </figure>
+      <div class="col-md-3 col-sm-6 col-xs-12 gallery-container wow fadeInUp" data-wow-delay="0.35s" style="margin-top: 18px;">
+        <a class="gallery-light-box industry-card" data-gall="myGallery" href="{{ asset('assets/images/gallery_8.jpg') }}">
+          <span class="industry-media"><img alt="Corporate Expansion" src="{{ asset('assets/images/gallery_8.jpg') }}"></span>
+          <span class="industry-overlay">
+            <span class="industry-accent"></span>
+            <span class="industry-name">Corporate Growth</span>
+            <span class="industry-desc">Structured capital to fuel expansion &amp; new ventures.</span>
+          </span>
         </a>
       </div>
     </div>
@@ -472,7 +497,7 @@
 <!-- TESTIMONIALS SECTION -->
 <section class="section-content-block section-secondary-bg">
   <div class="container">
-    <div class="row section-heading-wrapper text-center">
+    <div class="row section-heading-wrapper text-center wow fadeInUp">
       <div class="col-md-12">
         <h4 class="heading-alt-style text-capitalize text-dark-color">Client Testimonials</h4>
         <span class="heading-separator heading-separator-horizontal"></span>
@@ -557,7 +582,7 @@
 <!-- FAQ PREVIEW & CONTACT CALLOUT -->
 <section class="section-content-block">
   <div class="container">
-    <div class="row section-heading-wrapper text-center">
+    <div class="row section-heading-wrapper text-center wow fadeInUp">
       <div class="col-md-12">
         <h4 class="heading-alt-style text-capitalize text-dark-color">Frequently Asked Questions</h4>
         <span class="heading-separator heading-separator-horizontal"></span>
@@ -649,7 +674,7 @@
 <section class="cta-layout-02 section-primary-bg" style="background: linear-gradient(135deg, #071526 0%, #004c8f 100%); padding: 50px 0;">
   <div class="container">
     <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
-      <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+      <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 wow fadeInLeft">
         <h2 class="text-light-color" style="font-weight: 800; margin: 0 0 10px 0; font-size: 28px;">
           Ready to Accelerate Your Business Growth?
         </h2>
@@ -657,8 +682,8 @@
           Speak with our Senior Financial Advisors at CBD Belapur, Navi Mumbai or request an instant callback.
         </p>
       </div>
-      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 text-center" style="margin-top: 12px;">
-        <a class="btn btn-theme btn-square btn-theme-invert wow bounceIn" href="{{ route('contact') }}" style="font-weight: 700; padding: 14px 28px; font-size: 15px;">
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 text-center wow fadeInRight" style="margin-top: 12px;">
+        <a class="btn btn-theme btn-square btn-theme-invert" href="{{ route('contact') }}" style="font-weight: 700; padding: 14px 28px; font-size: 15px;">
           TALK TO AN ADVISOR
         </a>
       </div>
