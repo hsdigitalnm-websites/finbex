@@ -19,6 +19,11 @@
 </head>
 <body>
 
+  <div class="finbex-cursor" aria-hidden="true">
+    <div class="finbex-cursor-ring"></div>
+    <div class="finbex-cursor-dot"></div>
+  </div>
+
   <div id="preloader">
     <span class="margin-bottom">
       <img src="{{ asset('assets/images/loader.gif') }}" alt="Loading...">

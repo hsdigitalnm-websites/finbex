@@ -33,6 +33,59 @@ jQuery(function ($) {
     animations.init()
   }
 
+  // PREMIUM CUSTOM CURSOR (finance-site style dot + trailing ring)
+  // Disabled automatically on touch devices via is_touch_device().
+
+  function custom_cursor() {
+    if (is_touch_device()) {
+      return
+    }
+
+    var $cursor = $(".finbex-cursor")
+
+    if (!$cursor.length) {
+      return
+    }
+
+    var $dot = $cursor.find(".finbex-cursor-dot")
+    var $ring = $cursor.find(".finbex-cursor-ring")
+    var mouseX = 0,
+      mouseY = 0,
+      ringX = 0,
+      ringY = 0
+
+    $("body").addClass("has-custom-cursor")
+
+    $(document).on("mousemove", function (e) {
+      mouseX = e.clientX
+      mouseY = e.clientY
+      $dot.css({ left: mouseX + "px", top: mouseY + "px" })
+      $cursor.addClass("is-visible")
+    })
+
+    $(document).on("mouseleave", function () {
+      $cursor.removeClass("is-visible")
+    })
+
+    function render_ring() {
+      ringX += (mouseX - ringX) * 0.18
+      ringY += (mouseY - ringY) * 0.18
+      $ring.css({ left: ringX + "px", top: ringY + "px" })
+      window.requestAnimationFrame(render_ring)
+    }
+    render_ring()
+
+    var interactive_selector = "a, button, .btn, input, textarea, select, .finbex-service-card, .process-step-card, .finbex-faq-card, .trust-stat-item"
+
+    $(document).on("mouseenter", interactive_selector, function () {
+      $cursor.addClass("is-active")
+    })
+
+    $(document).on("mouseleave", interactive_selector, function () {
+      $cursor.removeClass("is-active")
+    })
+  }
+
   // ONE PAGE SMOOTH SCROLLING
 
   function smooth_scrolling() {
@@ -1100,6 +1153,9 @@ jQuery(function ($) {
 
   //WoW Animation.
   animations()
+
+  //Premium Custom Cursor.
+  custom_cursor()
 
   //One Page Scrolling.
   smooth_scrolling()

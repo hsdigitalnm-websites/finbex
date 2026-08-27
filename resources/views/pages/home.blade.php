@@ -260,9 +260,9 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row process-steps-row">
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="process-step-card">
+        <div class="process-step-card wow fadeInUp" data-wow-delay="0.1s">
           <div class="process-step-number">1</div>
           <h4>Apply Online</h4>
           <p>Submit your basic business profile and funding requirement online or via direct consultation.</p>
@@ -270,7 +270,7 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="process-step-card">
+        <div class="process-step-card wow fadeInUp" data-wow-delay="0.25s">
           <div class="process-step-number">2</div>
           <h4>Quick Verification</h4>
           <p>Our experts review your GST, bank statements, and business financials to match top lender terms.</p>
@@ -278,7 +278,7 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="process-step-card">
+        <div class="process-step-card wow fadeInUp" data-wow-delay="0.4s">
           <div class="process-step-number">3</div>
           <h4>Sanction &amp; Approval</h4>
           <p>Get formal sanction offers with competitive interest rates and transparent loan terms.</p>
@@ -286,7 +286,7 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="process-step-card">
+        <div class="process-step-card wow fadeInUp" data-wow-delay="0.55s">
           <div class="process-step-number">4</div>
           <h4>Disbursal to Account</h4>
           <p>Funds credited directly into your business bank account within 24 to 48 hours of sanction.</p>
@@ -298,22 +298,25 @@
     <div class="row">
       <div class="col-md-12">
         <div class="trust-stats-grid">
+          <span class="tsg-glow"></span>
+          <span class="tsg-shape tsg-shape-1"></span>
+          <span class="tsg-shape tsg-shape-2"></span>
           <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12 trust-stat-item">
-              <div class="trust-stat-number">₹500 Cr+</div>
-              <div class="trust-stat-label">Total Loans Disbursed</div>
+              <div class="trust-stat-number wow zoomIn" data-wow-delay="0.1s">₹500 Cr+</div>
+              <div class="trust-stat-label wow fadeInUp" data-wow-delay="0.25s">Total Loans Disbursed</div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 trust-stat-item">
-              <div class="trust-stat-number">40+</div>
-              <div class="trust-stat-label">Banking &amp; NBFC Partners</div>
+              <div class="trust-stat-number wow zoomIn" data-wow-delay="0.25s">40+</div>
+              <div class="trust-stat-label wow fadeInUp" data-wow-delay="0.4s">Banking &amp; NBFC Partners</div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 trust-stat-item">
-              <div class="trust-stat-number">24 - 48 Hrs</div>
-              <div class="trust-stat-label">Average Approval TAT</div>
+              <div class="trust-stat-number wow zoomIn" data-wow-delay="0.4s">24 - 48 Hrs</div>
+              <div class="trust-stat-label wow fadeInUp" data-wow-delay="0.55s">Average Approval TAT</div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 trust-stat-item">
-              <div class="trust-stat-number">99%</div>
-              <div class="trust-stat-label">Client Satisfaction</div>
+              <div class="trust-stat-number wow zoomIn" data-wow-delay="0.55s">99%</div>
+              <div class="trust-stat-label wow fadeInUp" data-wow-delay="0.7s">Client Satisfaction</div>
             </div>
           </div>
         </div>

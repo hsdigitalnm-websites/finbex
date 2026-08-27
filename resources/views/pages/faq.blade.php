@@ -35,7 +35,7 @@
     <div class="row">
       <div class="col-md-6 col-sm-12">
         
-        <div class="finbex-faq-card panel panel-default">
+        <div class="finbex-faq-card panel panel-default wow fadeInUp" data-wow-delay="0.05s">
           <div class="panel-heading">
             <h4 class="panel-title">
               <a data-toggle="collapse" href="#faq1">
@@ -51,7 +51,7 @@
           </div>
         </div>
 
-        <div class="finbex-faq-card panel panel-default">
+        <div class="finbex-faq-card panel panel-default wow fadeInUp" data-wow-delay="0.15s">
           <div class="panel-heading">
             <h4 class="panel-title">
               <a class="collapsed" data-toggle="collapse" href="#faq2">
@@ -67,7 +67,7 @@
           </div>
         </div>
 
-        <div class="finbex-faq-card panel panel-default">
+        <div class="finbex-faq-card panel panel-default wow fadeInUp" data-wow-delay="0.25s">
           <div class="panel-heading">
             <h4 class="panel-title">
               <a class="collapsed" data-toggle="collapse" href="#faq3">
@@ -89,7 +89,7 @@
           </div>
         </div>
 
-        <div class="finbex-faq-card panel panel-default">
+        <div class="finbex-faq-card panel panel-default wow fadeInUp" data-wow-delay="0.35s">
           <div class="panel-heading">
             <h4 class="panel-title">
               <a class="collapsed" data-toggle="collapse" href="#faq4">
@@ -109,7 +109,7 @@
 
       <div class="col-md-6 col-sm-12">
         
-        <div class="finbex-faq-card panel panel-default">
+        <div class="finbex-faq-card panel panel-default wow fadeInUp" data-wow-delay="0.1s">
           <div class="panel-heading">
             <h4 class="panel-title">
               <a class="collapsed" data-toggle="collapse" href="#faq5">
@@ -125,7 +125,7 @@
           </div>
         </div>
 
-        <div class="finbex-faq-card panel panel-default">
+        <div class="finbex-faq-card panel panel-default wow fadeInUp" data-wow-delay="0.2s">
           <div class="panel-heading">
             <h4 class="panel-title">
               <a class="collapsed" data-toggle="collapse" href="#faq6">
@@ -141,7 +141,7 @@
           </div>
         </div>
 
-        <div class="finbex-faq-card panel panel-default">
+        <div class="finbex-faq-card panel panel-default wow fadeInUp" data-wow-delay="0.3s">
           <div class="panel-heading">
             <h4 class="panel-title">
               <a class="collapsed" data-toggle="collapse" href="#faq7">
@@ -157,7 +157,7 @@
           </div>
         </div>
 
-        <div class="finbex-faq-card panel panel-default">
+        <div class="finbex-faq-card panel panel-default wow fadeInUp" data-wow-delay="0.4s">
           <div class="panel-heading">
             <h4 class="panel-title">
               <a class="collapsed" data-toggle="collapse" href="#faq8">
@@ -179,7 +179,7 @@
     <!-- ASSISTANCE BANNER -->
     <div class="row" style="margin-top: 30px;">
       <div class="col-md-12">
-        <div style="background: linear-gradient(135deg, #0b1d33 0%, #004c8f 100%); border-radius: 12px; padding: 30px 24px; color: #ffffff; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+        <div class="wow fadeInUp" data-wow-delay="0.1s" style="background: linear-gradient(135deg, #0b1d33 0%, #004c8f 100%); border-radius: 12px; padding: 30px 24px; color: #ffffff; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
           <div>
             <h3 style="color: #ffd700; margin: 0 0 6px 0; font-size: 20px; font-weight: 700;">Still Have Questions Regarding Business Financing?</h3>
             <p style="margin: 0; color: #e2e8f0; font-size: 14px;">Our Senior Loan Advisory team is available Monday to Saturday (9:30 AM – 6:30 PM).</p>
